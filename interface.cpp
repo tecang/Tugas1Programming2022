@@ -1,4 +1,10 @@
 #include "interface.h"
+#include <iostream>
+#include "objek.h"
+#include "peta.h"
+using namespace std;
+
+//
 
 void TambahObjek(char** peta){
     // Deklarasi korban dan lilin

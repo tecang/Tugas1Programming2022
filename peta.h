@@ -1,3 +1,5 @@
+#ifndef PETA_H
+#define PETA_H 
 // Tuliskan Header Terlebih dahulu
 
 /**
@@ -20,15 +22,21 @@ void PrintPeta(char** peta, int n_peta);
 /**
  * @brief Prosedur untuk menampilkan peta dari sisi kiri
  * 
+ * @param peta menyatakan alamat dari matriks yang berisi peta
+ * @param n_peta ukuran peta
  * // jangan lupa isi param di sini
  * @result peta ditampilkan dari sisi kiri
  */
-void PrintViewKiri(); // Silakan sesuaikan parameternya
+void PrintViewKiri(char** peta, int n_peta); // Silakan sesuaikan parameternya
 
 /**
  * @brief Prosedur untuk menampilkan peta dari sisi kanan
  * 
+ * @param peta menyatakan alamat dari matriks yang berisi peta
+ * @param n_peta ukuran peta
  * // jangan lupa isi param di sini
  * @result peta ditampilkan dari sisi kanan
  */
-void PrintViewKanan(); // Silakan sesuaikan parameternya
+void PrintViewKanan(char** peta, int n_peta); // Silakan sesuaikan parameternya
+
+#endif
